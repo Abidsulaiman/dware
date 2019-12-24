@@ -1,0 +1,112 @@
+*{
+    outline: 0;
+    box-shadow: none;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+    color: #443f35;
+}
+.v-centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0849c3;
+    border-color: #0849c3;
+}
+.navbar{
+    padding: 0;
+    min-height: 74px;
+}
+.navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    color: #443f35;
+    letter-spacing: .2px;
+    border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #443f35;
+}
+.navbar-light .navbar-nav.nav-menu .nav-item {
+    padding: 12px 32px 12px 20px;
+}
+.navbar-light .navbar-nav.nav-menu .nav-link {
+    font-size: 17px;
+    color: #443f35;
+    letter-spacing: .2px;
+    font-weight: 900;
+    padding: 0;
+}
+.navbar-brand {
+    ont-size: 17px;
+    color: #443f35;
+    letter-spacing: .2px;
+    padding: 12px 32px 12px 20px;
+    font-weight: 900;
+}
+
+.navbar-nav.side-menu{
+    min-height: auto;
+    align-items: center;
+}
+
+.side-menu .nav-item{
+    letter-spacing: .2px;
+    padding: 12px 32px 12px 20px;
+    font-weight: 900;
+}
+
+.side-menu .nav-link{
+    padding: 0;
+}
+
+.side-menu .nav-item.get-quote{
+    height: 74px;
+    padding: 17px;
+    background: #0849c3;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-menu .nav-item.get-quote::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #0741ad;
+    width: 0;
+    height: 100%;
+    transition: all ease .5s;
+}
+
+.side-menu .nav-item.get-quote:hover::after{
+    background: #0741ad;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-item.get-quote .nav-link {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    border: 0;
+}
+.side-menu .nav-link{
+   color: #fff;
+}
+
+.dware-header{
+    min-height: 300px;
+}
