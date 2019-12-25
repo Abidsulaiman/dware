@@ -33,6 +33,14 @@ h1{
 h2{
     font-size: 3.4rem;
 }
+a{
+    color: #282c35;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+a:hover{
+    text-decoration: none;
+}
 .v-centered{
     display: flex;
     flex-direction: column;
@@ -144,4 +152,68 @@ h2{
 
 .section-title h3{
     font-size: 3rem;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100%;
+    padding: 1rem .5rem;
+    margin: .125rem 0 0;
+    font-size: .9rem;
+    color: #ffffff;
+    text-align: left;
+    list-style: none;
+    background-color: #2e374a;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .25rem;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .5rem 2rem;
+    clear: both;
+    font-weight: 400;
+    color: #e2e2e2;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+@media (max-width: 768px){
+    .navbar-nav.side-menu {
+        min-height: auto;
+        align-items: start;
+    }
+    .side-menu .nav-item.get-quote {
+        width: 100%;
+    }
+    .section-title h3 {
+        font-size: 1.5rem;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border: none;
+        outline: none;
+    }
+    .navbar {
+        padding: 0;
+        min-height: auto;
+    }
+    .get-proposal {
+        font-size: 16px;
+    }
+    .h1, h1{
+        font-size: 2rem;
+    }
+    .h3, h3 {
+        font-size: 1.3rem;
+    }
 }
