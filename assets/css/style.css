@@ -187,6 +187,12 @@ a:hover{
     border: 0;
 }
 
+.footer-number p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: var(--primary);
+}
+
 @media (max-width: 768px){
     .navbar-nav.side-menu {
         min-height: auto;
