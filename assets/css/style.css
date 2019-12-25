@@ -193,7 +193,14 @@ a:hover{
     color: var(--primary);
 }
 
+.footer-right{
+    text-align: right;
+}
+
 @media (max-width: 768px){
+    .footer-right{
+        text-align: center;
+    }
     footer{
         text-align: center;
     }
