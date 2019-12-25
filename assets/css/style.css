@@ -194,6 +194,9 @@ a:hover{
 }
 
 @media (max-width: 768px){
+    footer{
+        text-align: center;
+    }
     .navbar-nav.side-menu {
         min-height: auto;
         align-items: start;
