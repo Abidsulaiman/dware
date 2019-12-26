@@ -46,10 +46,23 @@ a:hover{
     flex-direction: column;
     justify-content: center;
 }
+btn:focus{
+    box-shadow: none!important;
+}
 .btn-primary {
     color: #fff;
     background-color: #0849c3;
     border-color: #0849c3;
+}
+.bg-primary{
+    background: #0741ad!important;
+}
+.form-control:focus {
+    color: #1c2029;
+    background-color: #fff;
+    border-color: #0741ad;
+    outline: 0;
+    box-shadow: 0 0 0 0.5px rgb(7, 65, 173);
 }
 .get-proposal{
     text-transform: uppercase;
